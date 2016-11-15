@@ -1,0 +1,9 @@
+// Add at the top of your description.ext
+// Incude dialog master file
+#include "CfgDialogs.hpp"
+
+
+
+// Add at the bottom of your description.ext
+// Include functions master file
+#include "CfgFunctions.hpp"
