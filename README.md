@@ -2,6 +2,11 @@
 
 # General Information:
 
+This simple script adds a player statusbar to every connected player on a Arma 3 Exile Mod server.
+See the image for the displayed information:
+
+![RG-Statusbar](http://www.reality-gaming.eu/exile/images/rgsb.jpg)
+
 # Installation:
 
 - Download the latest RGSB release from here: https://github.com/salutesh/RGSB_Exile/releases
