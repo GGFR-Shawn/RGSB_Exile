@@ -13,13 +13,14 @@ See the image for the displayed information:
 - Download the latest RGSB release from here: https://github.com/salutesh/RGSB_Exile/releases
 - Copy the content of the RGSB init.sqf into the top of your init.sqf and save that file.
 If you have no init.sqf just use the provided one.
-- Copy the content of the description.ext into the top/end of your description.ext like the provided information is telling you.
+- Copy the content of the "description.ext" into the top/end of your "description.ext" like the provided information is telling you.
+- Copy the "CfgFunctions.hpp" and the "CfgDialogs.hpp" into your main mission folder.
 
 ####PLEASE NOTE:
-If you have already definied CfgFunctions or RscTitles classes in your description.ext please use the provided external config files now to include custom classes.
+If you have already definied CfgFunctions or RscTitles classes in your "description.ext" please use the provided external config files "CfgFunctions.hpp" and the "CfgDialogs.hpp" now to include custom classes.
 You can easily copy/paste your already installed classes into the external config files.
 
-- Copy the core, dialog, textures and icons directory into your mission main directory.
+- Copy the core, dialog and icons directory into your mission main directory.
 
 # Github Project:
 
