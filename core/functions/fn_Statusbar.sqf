@@ -121,6 +121,7 @@ _rscLayer cutRsc["StatusBarExile","PLAIN"];
 		_colourTemp20 			= parseText "#ff9c00";
 		_colourTemp10 			= parseText "#ff6600";
 		_colourTemp0 			= parseText "#ff1200";
+		_colourMinus 			= parseText "#2efec8";
 		
 		//Color Gradient Radiation
 		_colourRadiationDefault 	= parseText "#ffffff";
@@ -208,7 +209,7 @@ _rscLayer cutRsc["StatusBarExile","PLAIN"];
 			case((_ambientTemp >= 32) && (_ambientTemp < 33)) :  {_colourAmbientTemp =  _colourTemp20;};
 			case((_ambientTemp >= 31) && (_ambientTemp < 32)) :  {_colourAmbientTemp =  _colourTemp10;};
 			case((_ambientTemp >= 1) && (_ambientTemp < 10)) :  {_colourAmbientTemp =  _colourTemp0;};
-			case(_ambientTemp < 1) : {_colourAmbientTemp =  _colourDead;};
+			case(_ambientTemp < 1) : {_colourAmbientTemp =  _colourMinus;};
 		};
 	
 		//Body Temerature
@@ -226,7 +227,7 @@ _rscLayer cutRsc["StatusBarExile","PLAIN"];
 			case((_bodytemp >= 32) && (_bodytemp < 33)) :  {_colourTemp =  _colourTemp20;};
 			case((_bodytemp >= 31) && (_bodytemp < 32)) :  {_colourTemp =  _colourTemp10;};
 			case((_bodytemp >= 1) && (_bodytemp < 10)) :  {_colourTemp =  _colourTemp0;};
-			case(_bodytemp < 1) : {_colourTemp =  _colourDead;};
+			case(_bodytemp < 1) : {_colourTemp =  _colourMinus;};
 		};
 			
 		//Radiation
